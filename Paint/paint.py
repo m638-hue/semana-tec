@@ -5,6 +5,7 @@ Exercises
 3. Complete rectangle.
 4. Complete triangle.
 5. Add width parameter.
+holis
 """
 
 from turtle import *
@@ -83,6 +84,8 @@ goto(210, -210)
 onscreenclick(tap)
 
 # Atender los eventos del teclado
+setup(420, 420, 370, 0)
+onscreenclick(tap)
 listen()
 onkey(undo, 'u')
 onkey(lambda: color('black'), 'K')
