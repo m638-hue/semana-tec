@@ -69,6 +69,21 @@ def store(key, value):
 
 
 state = {'start': None, 'shape': line}
+setup(420, 420, 370, 100)
+
+up()
+goto(210, 210)
+down()
+goto(-210, -210)
+up()
+goto(-210, 210)
+down()
+goto(210, -210)
+
+# Atender los eventos del mouse
+onscreenclick(tap)
+
+# Atender los eventos del teclado
 setup(420, 420, 370, 0)
 onscreenclick(tap)
 listen()
