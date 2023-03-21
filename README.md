@@ -55,3 +55,19 @@ ___
 
 # 8. Link
 [freegames](https://grantjenks.com/docs/freegames/#user-guide)
+
+# 9. Foto
+![](Vancouver.jpeg)
+
+# 10. Tabla
+| oper1 | oper2 | Resultado |
+| ---- | ---- | ---- | 
+| True | True | True |
+| True | False | False |
+| False | True | False |
+| False | False | False |
+
+# 11. Opciones
+- [X] Triangulo
+- [ ] Circulo
+- [X] Cuadrado
